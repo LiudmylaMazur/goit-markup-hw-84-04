@@ -145,9 +145,16 @@ a {
 }
 /*-----------------main-----------*/
 .section-main {
-  background-color: var(--color-navy-blue);
   padding-top: 192px;
   padding-bottom: 192px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../image/people-office.jpg);
+  background-color: rgba(46, 47, 66, 0.7);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .caption-one {
   color: var(--color-width);
@@ -201,7 +208,22 @@ a {
   padding-bottom: 72px;
 }
 .list-first {
-  text-align: left;
+  width: 264px;
+  justify-content: left;
+}
+.first-link {
+  width: 100%;
+  height: 112px;
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+.first-icon {
+  fill: var(--color-navy-blue);
 }
 .caption-three {
   color: var(--color-navy-blue);
@@ -209,6 +231,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .paragraf {
   color: var(--color-slate);
@@ -216,6 +239,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 /*------section-what----*/
 .section-what {
@@ -240,6 +264,40 @@ a {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.paragraf-center {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.our-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.our-item {
+  height: 40px;
+  width: 40px;
+}
+.our-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-iris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.our-link:hover {
+  background-color: var(--color-ocean);
+}
+
+.our-icon {
 }
 /*------section-footer-----*/
 .section-footer {
