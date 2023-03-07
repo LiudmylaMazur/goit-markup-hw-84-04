@@ -306,32 +306,29 @@ a {
 }
 .customers-list {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
+  justify-content: center;
   gap: 24px;
 }
-
 .customers-item {
-  height: 40px;
-  width: 40px;
 }
 .customers-link {
   width: 168px;
   height: 88px;
   background-color: var(--color-width);
-
-  display: flex;
-
-  justify-content: center;
 }
-.customers-link:hover {
-  background-color: var(--color-ocean);
-}
-
 .customers-icon {
-  color: #8e8f99;
+  fill: currentColor;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: var(--color-light-slate);
 }
+.customers-icon:hover,
+.customers-icon:focus {
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: var(--color-ocean);
+}
+
 /*------section-footer-----*/
 .section-footer {
   background-color: var(--color-navy-blue);
