@@ -319,6 +319,7 @@ a {
   width: 168px;
   height: 88px;
   background-color: var(--color-width);
+
   display: flex;
 
   justify-content: center;
@@ -328,6 +329,7 @@ a {
 }
 
 .customers-icon {
+  color: #8e8f99;
 }
 /*------section-footer-----*/
 .section-footer {
