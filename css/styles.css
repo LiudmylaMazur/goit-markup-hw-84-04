@@ -364,12 +364,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.footer-social {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-}
+
 .footer-link {
 }
 .footer-link {
