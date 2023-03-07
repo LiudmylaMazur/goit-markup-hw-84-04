@@ -299,6 +299,36 @@ a {
 
 .our-icon {
 }
+/*--------section-customers----*/
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.customers-item {
+  height: 40px;
+  width: 40px;
+}
+.customers-link {
+  width: 168px;
+  height: 88px;
+  background-color: var(--color-width);
+  display: flex;
+
+  justify-content: center;
+}
+.customers-link:hover {
+  background-color: var(--color-ocean);
+}
+
+.customers-icon {
+}
 /*------section-footer-----*/
 .section-footer {
   background-color: var(--color-navy-blue);
