@@ -306,9 +306,10 @@ a {
 }
 .customers-list {
   display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 8px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
 }
 
 .customers-item {
