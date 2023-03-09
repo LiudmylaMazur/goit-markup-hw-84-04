@@ -249,6 +249,9 @@ a {
   gap: 24px;
   display: flex;
 }
+.item-what {
+  border: 1px solid var(--color-corn-flower);
+}
 /*-----------section-our----*/
 .section-our {
   background-color: var(--color-cloud);
@@ -264,6 +267,9 @@ a {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .paragraf-center {
   color: var(--color-slate);
