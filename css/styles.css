@@ -420,7 +420,7 @@ a {
 }
 .card-list {
   flex-wrap: wrap;
-  gap: 48px 24px;
+  gap: 48px 22px;
 }
 .card-item:hover {
   border: 1px solid var(--color-cloud);
