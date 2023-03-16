@@ -345,7 +345,7 @@ a {
 .section-list {
   display: flex;
   gap: 120px;
-  align-items: center;
+  align-items: flex-start;
 }
 .footer-list {
   display: flex;
